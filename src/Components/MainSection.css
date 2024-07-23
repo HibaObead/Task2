@@ -1,0 +1,76 @@
+/* src/components/MainSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+    max-width: 539px;
+    max-height: 132px;
+    text-align: justify;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.p1 {
+    font-size: 18px;
+    color: #505F98;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    max-width: 539px;
+}
+
+.features {
+    display: flex;
+    margin-top: 30px;
+}
+
+.feature {
+    flex: 1;
+    margin: 70px;
+    text-align: justify;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    align-items: left;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    color: #091133;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #5D6970;
+    text-align: justify;
+}
+
+.illustration {
+    flex: 1;
+}
+
+.illustration img {
+    width: 100%;
+    height: auto;
+}
