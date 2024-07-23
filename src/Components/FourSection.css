@@ -1,0 +1,67 @@
+.hero-buttons {
+    margin-right: 50px;
+    text-align: justify;
+
+}
+
+.primary-btn {
+    background-color: #001f3f;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+
+    width: 160px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.img {
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #091133;
+    max-width: 539px;
+    max-height: 132px;
+    text-align: justify;
+    padding-left: 70px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #505F98;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    max-width: 539px;
+}
